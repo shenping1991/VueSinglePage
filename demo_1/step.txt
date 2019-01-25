@@ -1,0 +1,24 @@
+1.npm install -g vue-cli
+
+2.vue init webpack demo_1 
+
+Project name :项目名称
+Project description 项目描述
+Author 作者
+Install vue-router?是否安装vue路由组件，选择是，因为此项目会用到
+Use ESLint to lint your code ? 是否使用eslint来检测代码风格，否。
+Setup unit tests with Karma+Mocha? 是否安装测试，否。
+Setup e2e tests with Nightwatch?单元测试？否。
+
+
+3.npm install
+
+4.npm run build
+5.npm run dev 打开 http://localhost:8080
+
+
+
+
+
+
+
