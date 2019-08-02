@@ -1,0 +1,7 @@
+{
+	"books":[
+		{"name":"chinese","price":"30.00"},
+		{"name":"english","price":"40.00"},
+		{"name":"math","price":"50.00"}
+	]
+}

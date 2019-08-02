@@ -7,6 +7,7 @@
 			</ul>
 			<div style="clear:both;"></div>
 		</div>
+		
 	</div>
 </template>
 <script>
@@ -26,10 +27,10 @@
 		components:{
 			List,
 		},
-		// created(){
-		// 	this.$http.get('/api/books').then((data)=>{
-		// 		this.items=data.body.data;
-		// 	});
-		// }
+		created(){
+			this.$http.get('/api/books').then((data)=>{
+				this.items=data.body.data;
+			});
+		}
 	}
 </script>

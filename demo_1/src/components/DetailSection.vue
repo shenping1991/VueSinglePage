@@ -1,8 +1,8 @@
 <template>
-	<h1>详情页面</h1>
+	<p>hello detail</p>
 </template>
 <script>
 	export default{
-		name:'DetailHeader'
+		name:'detail'
 	}
 </script>
