@@ -39,14 +39,14 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     ))
   })
 })
-const express=require('express');
-const app=express();
-var appData=require('../data.json');
-var books=appData.books;
-var apiRoutes=express.Router();
-apiRoutes.get('/books',function(req,res){
-    res.json({
-        data:books
-    });
-});
-app.use('/api',apiRoutes);
+// const express=require('express');
+// const app=express();
+// var appData=require('../data.json');
+// var books=appData.books;
+// var apiRoutes=express.Router();
+// apiRoutes.get('/books',function(req,res){
+//     res.json({
+//         data:books
+//     });
+// });
+// app.use('/api',apiRoutes);

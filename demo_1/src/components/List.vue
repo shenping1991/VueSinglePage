@@ -1,7 +1,8 @@
 <template>
 	<li class="sec_li">
 	<!-- <div class="lp_li_a"> -->
-		<router-link to="/Detail" class="lp_li_a">
+		<router-link :to="{path:'/Detail/:id'}" class="lp_li_a">
+		<!-- <Detail></Detail> -->
 		<div class="lp_li_imgWrap">
 			<img src="" alt="" width="200px" height="160px">
 		</div>
@@ -38,15 +39,19 @@
 	}
 </style>
 <script>
+	import Detail from './Detail'
 	export default{
 		props:['id','title','price'],
-		//id:props.id,
+		id:props.id,
 		data(){
 			return{
 			} 
 		},
 		methods:{
 
+		},
+		components:{
+			Detail
 		}
 	}
 </script>
